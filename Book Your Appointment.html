@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h3>Book Your Appointment</h3>
+  <hr>
+  <form action="mailto:contact.drzeba@gmail.com" method="post" enctype="text/plain">
+    <label for="Name">Your name:</label><br>
+    <input type="text" name="Name:" value=""><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+
+    <label for="Age">Age:</label><br>
+    <input type="text" name="Age:" value=""><br>
+    <label for="Contact">Contact number:</label><br>
+    <input type="tel" name="Contact:" value=""><br>
+    <label for="Problem">Explain your problem here:</label><br>
+    <textarea name="Problem" rows="8" cols="80"></textarea>
+    <br>
+    <label for="Aadhaar">Upload your Aadhaar card:</label><br>
+    <input type="file" name="Aadhaar" value=""><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
