@@ -1,41 +1,39 @@
 .top-container {
   background-color: #e4f9f5;
   padding-top: 100px;
-
 }
-.middle-container{
-    margin: 100px auto;
+.middle-container {
+  margin: 100px auto;
 }
-
 
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  color:#40514E;
-
-
+  font-family: "Merriweather", serif;
+  color: #40514e;
 }
-p{  line-height: 2;}
+p {
+  line-height: 2;
+}
 
 h1 {
   margin: 50px auto 0;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #66bfbf;
   padding-bottom: 10px;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
 .top-cloud {
@@ -45,16 +43,18 @@ h3 {
 }
 
 .skills-img-web {
-  width: 25%;
+  width: 125px;
   float: left;
   margin-right: 30px;
+}
+.skill-row > ul {
+  display: grid;
 }
 
 .skills-img-android {
   width: 25%;
   float: right;
   margin-left: 30px;
-  
 }
 
 .bottom-cloud {
@@ -64,12 +64,12 @@ h3 {
 }
 
 a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #eaf6f6;
 }
 
@@ -77,35 +77,47 @@ a:hover{
   width: 50%;
   margin: 100px auto;
   text-align: left;
-
 }
-.intro{
-  color:#40514E;
-  width:30%;
+.intro {
+  color: #40514e;
+  width: 30%;
   margin: auto;
 }
-hr{border-style:None;
+hr {
+  border-style: None;
   border-top-style: dotted;
   border-width: 6px;
   width: 4%;
-  color: #EAF6F6;
-  margin: 100px auto;
+  color: #eaf6f6;
+  margin: 10px auto;
 }
-.copyright{
-  color: #EAF6F6;
+.form {
+  border: 1px solid lightgray;
+  width: 400px;
+  margin: auto;
+  text-align: left;
+  height: 450px;
+}
+.form > div {
+  margin: 35px;
+}
+.form > div > label {
+  margin-bottom: 100px;
+}
+.copyright {
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
-.a{
-  color: #11999E;
+.a {
+  color: #11999e;
   text-decoration: none;
 }
-.bottom-container{
-  background-color: #66BFBF;
+.bottom-container {
+  background-color: #66bfbf;
   padding: 50px 0 20px;
-
 }
-.contact-message{
+.contact-message {
   width: 40%;
   margin: 40px auto 60px;
 }
@@ -135,7 +147,7 @@ hr{border-style:None;
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-.profile-pic{
+.profile-pic {
   width: 200px;
   height: 200px;
 }
